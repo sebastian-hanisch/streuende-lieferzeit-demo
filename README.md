@@ -1,7 +1,6 @@
 # Streuende Lieferzeit – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-streuende-lieferzeit-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-streuende-lieferzeit-demo.streamlit.app/)**
 
 Demo der Linie **Rückkopplung und Verzögerung** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Die Linie fragt, wann ein Kreis aus Bestand, Fluss und Verzögerung schwingt, wächst oder kippt und was davon an der Regel, an der Verzögerung oder am Rechnen hängt. Diese Demo ändert nur **die Form der Lieferzeit** bei gleichem Mittel.
 Sie hebt eine Schwäche von [`lager-lieferzeit-demo`](https://github.com/sebastian-hanisch/lager-lieferzeit-demo) auf: Dort gilt die Grenze α_krit = 2·sin(π/(4L − 2)) für eine **feste** Lieferzeit L, aber echte Lieferzeiten streuen. Zugleich ist sie ein Kontrast zu [`verzoegerung-hopf-demo`](https://github.com/sebastian-hanisch/verzoegerung-hopf-demo) (feste stetige Verzögerung, a·τ = π/2): gleiche mittlere Verzögerung, andere Form. Nachbarn der Linie: [`leitung-mitrechnen-demo`](https://github.com/sebastian-hanisch/leitung-mitrechnen-demo) (Leitungsgewicht β), [`meldeverzug-demo`](https://github.com/sebastian-hanisch/meldeverzug-demo) (Meldeverzug), [`frequenzgang-lager-demo`](https://github.com/sebastian-hanisch/frequenzgang-lager-demo) (Frequenzgang); mit Klemmung und Chaos beschäftigt sich [`lager-chaos-demo`](https://github.com/sebastian-hanisch/lager-chaos-demo).
