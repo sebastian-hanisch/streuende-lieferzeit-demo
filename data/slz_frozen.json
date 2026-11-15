@@ -1,0 +1,84 @@
+{
+ "beschreibung": "Vorgerechnet von tools/make_frozen.py: Grenze (beta = 0) von Zufallsverteilungen gegen die feste Lieferzeit gleichen Mittels.",
+ "seed": 20261115,
+ "n": 1000,
+ "rows": {
+  "3": {
+   "mean": 3,
+   "n": 1000,
+   "above": 1000,
+   "below": 0,
+   "equal": 0,
+   "ratio_min": 1.0002312526354014,
+   "ratio_median": 1.5347629304971575,
+   "ratio_max": 16.943441809072038,
+   "no_crossing": 0,
+   "returns": 0,
+   "return_indices": [],
+   "median_by_form": {
+    "glatt": 1.604448273485818,
+    "gemischt": 1.5402044659839889,
+    "spitz": 1.366350680929596
+   }
+  },
+  "4": {
+   "mean": 4,
+   "n": 1000,
+   "above": 999,
+   "below": 0,
+   "equal": 1,
+   "ratio_min": 1.0000000430262852,
+   "ratio_median": 1.3284684441289574,
+   "ratio_max": 9.148953492917439,
+   "no_crossing": 0,
+   "returns": 4,
+   "return_indices": [
+    130,
+    438,
+    592,
+    609
+   ],
+   "median_by_form": {
+    "glatt": 1.3944490669531828,
+    "gemischt": 1.3752302520732218,
+    "spitz": 1.2163453770980803
+   }
+  },
+  "5": {
+   "mean": 5,
+   "n": 1000,
+   "above": 1000,
+   "below": 0,
+   "equal": 0,
+   "ratio_min": 1.0000054256881767,
+   "ratio_median": 1.218439619709407,
+   "ratio_max": 3.5138079408509366,
+   "no_crossing": 0,
+   "returns": 0,
+   "return_indices": [],
+   "median_by_form": {
+    "glatt": 1.2505095539853612,
+    "gemischt": 1.2261152871296852,
+    "spitz": 1.1767233197238252
+   }
+  },
+  "6": {
+   "mean": 6,
+   "n": 1000,
+   "above": 999,
+   "below": 0,
+   "equal": 1,
+   "ratio_min": 1.0000003496334382,
+   "ratio_median": 1.168362782401591,
+   "ratio_max": 2.2794531802794302,
+   "no_crossing": 0,
+   "returns": 0,
+   "return_indices": [],
+   "median_by_form": {
+    "glatt": 1.1975164595458343,
+    "gemischt": 1.1608384150740199,
+    "spitz": 1.1461920743382252
+   }
+  }
+ }
+}
